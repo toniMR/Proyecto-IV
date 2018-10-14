@@ -1,9 +1,9 @@
 languaje: python
 python:
-   - "3.6.6"
+  - "3.6.6"
 
 install:
-   - pip install -r requeriments.txt
+  - pip install -r requeriments.txt
 
 script:
-   -  pytest
+  -  pytest
