@@ -1,6 +1,6 @@
 # Proyecto-IV
 
-
+(Travis Badge)
 
 ## Microservicio de Proyección de Películas
 
@@ -12,4 +12,3 @@ El microservicio proporcionará información sobre las películas que hay en un 
 - Como framework usaré Flask
 - Para los tests usaré unitest y Travis CI
 - Para la Base de datos usaré MySQL
-
