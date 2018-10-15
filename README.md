@@ -4,6 +4,8 @@
 
 El microservicio proporcionará información sobre las películas que hay en un cine. Mostrará las salas, horas y butacas disponibles.
 
+### Explicación de las clases creadas por ahora
+[Clases](https://github.com/toniMR/Proyecto-IV/blob/master/doc/Clases.md)
 
 ### Herramientas
 - Usaré como lenguaje python
