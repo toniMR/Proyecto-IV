@@ -5,19 +5,25 @@ from Pelicula import Pelicula
 class Proyeccion():
 	pelicula = ''
 	sala = ''
+	dia = ''
 	hora = ''
 
 	# Inicializacion
-	def __init__(self, p, s, h):
+	def __init__(self, p, s, d, h):
 		self.pelicula = p
 		self.sala = s
+		self.dia = d
 		self.hora = h
+
 
 	def setPelicula (p):
 		self.pelicula = p
 
 	def setSala (s):
 		self.sala = s
+
+	def setDia (d):
+		self.dia = d
 
 	def setHora (h):
 		self.hora = h
@@ -28,7 +34,10 @@ class Proyeccion():
 	def getSala (self):
 		return (self.sala)
 
-	def getHora (Self):
+	def getDia (self):
+		return (self.dia)
+
+	def getHora (self):
 		return (self.hora)
 
 	# Devuelve la hora en la que termina la proyección
@@ -41,4 +50,5 @@ class Proyeccion():
 		return(str(hora_fin) + ':' + str(minutos_fin))
 
 	def toString (self):
-		return (self.pelicula.getNombre() + ', ' + str(self.sala) + ', ' + self.hora + '-' + self.getHoraFin())
+		return ("Nombre: " + self.pelicula.getNombre() + ", Sala: " +
+		str(self.sala) + ", Dia: " + str(self.dia) + ", Hora(Inicio-Fin): " + self.hora + '-' + self.getHoraFin())
