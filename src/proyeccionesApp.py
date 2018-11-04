@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return jsonify(status="Ok")
+	return jsonify(status="OK")
 
 @app.route('/peliculas')
 def prueba():
