@@ -30,6 +30,7 @@ También he puesto la ruta /peliculas (http://proyecciones-cine.herokuapp.com/pe
 
 [Documentación-Docker](https://github.com/toniMR/Proyecto-IV/blob/master/doc/ConfiguracionDocker.md)  
 
+Contenedor : https://contenedor-proyecciones.herokuapp.com/
 
 
 [![Build Status](https://travis-ci.org/toniMR/Proyecto-IV.svg?branch=master)](https://travis-ci.org/toniMR/Proyecto-IV)
