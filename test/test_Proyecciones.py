@@ -23,5 +23,10 @@ class TestPelicula(unittest.TestCase):
 		self.assertEqual(response.status_code,200, "Código correcto")
 		self.assertEqual(response.json()['status'], "OK", "Estado correcto en '/status'")
 
+	# Comprueba que se haya cargado bien el json de las proyecciones
+	def test_comprueba_json_proyecciones(self):
+		response = requests.get(url+'/proyecciones')
+		self.assertEqual(response.json(),proyeccionesJSON, "Proyecciones correctas")
+
 if __name__ == '__main__':
 	unittest.main()
