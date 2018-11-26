@@ -6,7 +6,7 @@ from requests import *
 url = 'https://contenedor-proyecciones.herokuapp.com/'
 
 proyeccionesJSON = {}
-with open('../data/datos.json', 'r') as f:
+with open('data/datos.json', 'r') as f:
 	proyeccionesJSON = json.loads(f.read())
 
 class TestPelicula(unittest.TestCase):
