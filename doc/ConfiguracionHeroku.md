@@ -11,7 +11,12 @@ Nos logueamos y creamos una aplicación. En mi caso el nombre que puse fue proye
 
 ## Paso 3: Archivos de configuración
 Tenemos que crear un archivo Procfile en nuestro repositorio:
+
+Este archivo nos permitirá especificar a Heroku que nuestra aplicación es un microservicio web. Por lo que se lo indicaremos con el comando siguiente:  
+
 ![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/heroku/Procfile.png)  
+
+Además el archivo Procfile se debe poner en la raíz de nuestro proyecto o de lo contrario no funcionará.
 
 En el requeriments.txt añadimos gunicorn:  
 
