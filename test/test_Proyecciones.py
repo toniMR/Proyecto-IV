@@ -3,7 +3,7 @@
 import unittest, json, requests
 from requests import *
 
-url = 'https://contenedor-proyecciones.herokuapp.com/'
+url = 'https://proyecciones-cine.herokuapp.com/'
 
 proyeccionesJSON = {}
 with open('data/datos.json', 'r') as f:
