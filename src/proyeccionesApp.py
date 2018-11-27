@@ -11,11 +11,11 @@ cine = Cine()
 
 @app.route('/')
 def index():
-	return jsonify(status="Ok")
+	return jsonify(status="OK")
 
 @app.route('/status')
 def status():
-	return jsonify(status="Ok")
+	return jsonify(status="OK")
 
 @app.route('/peliculas')
 def prueba():
