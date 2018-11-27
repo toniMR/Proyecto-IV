@@ -23,16 +23,16 @@ El PaaS que he escogido ha sido Heroku. Ya que en Azure se acaba el saldo y pref
 
 despliegue : https://proyecciones-cine.herokuapp.com/
 
-**Solicitudes que se pueden realizar al microservicios**
+**Solicitudes que se pueden realizar al microservicio**
 - Devolver todas las proyecciones de cada dia: https://proyecciones-cine.herokuapp.com/proyecciones
 
 - Devolver todas las proyecciones que hay el dia 'd' https://proyecciones-cine.herokuapp.com/proyecciones/dia/7
 
-- Devolver todas las proyecciones que hay el dia 'd' a partir de las 'hh:mm' https://proyecciones-cine.herokuapp.com/proyecciones/dia/12/hora/10:28
+- Devolver todas las proyecciones que hay el dia 'd' a partir de las 'hh:mm' https://proyecciones-cine.herokuapp.com/proyecciones/dia/12/hora/12:28
 
 - Devolver todas las proyecciones que hay con peliculas que contengan 'n' en su nombre https://proyecciones-cine.herokuapp.com/proyecciones/pelicula/venom
 
-- Devolver las proyecciones de una película para un día concreto https://proyecciones-cine.herokuapp.com/pelicula/venom/dia/9
+- Devolver las proyecciones de una película para un día concreto https://proyecciones-cine.herokuapp.com/proyecciones/pelicula/venom/dia/9
 
 ### Docker
 
