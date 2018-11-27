@@ -13,6 +13,10 @@ cine = Cine()
 def index():
 	return jsonify(status="Ok")
 
+@app.route('/status')
+def status():
+	return jsonify(status="Ok")
+
 @app.route('/peliculas')
 def prueba():
 	peliculas = []
