@@ -21,10 +21,18 @@ El PaaS que he escogido ha sido Heroku. Ya que en Azure se acaba el saldo y pref
 
 [Documentación-Heroku](https://github.com/toniMR/Proyecto-IV/blob/master/doc/ConfiguracionHeroku.md)  
 
-despliegue : https://proyecciones-cine.herokuapp.com/ 
+despliegue : https://proyecciones-cine.herokuapp.com/
 
-También he puesto la ruta /peliculas (http://proyecciones-cine.herokuapp.com/peliculas) de modo que devuelve las películas que hay en el Cine. Pero si recargas empieza a añadirse de nuevo las películas en el JSON. Esto lo arreglaré cuando solucione una duda y suba las demás peticiones.  
+**Solicitudes que se pueden realizar al microservicios**
+- Devolver todas las proyecciones de cada dia: https://proyecciones-cine.herokuapp.com/proyecciones
 
+- Devolver todas las proyecciones que hay el dia 'd' https://proyecciones-cine.herokuapp.com/proyecciones/dia/7
+
+- Devolver todas las proyecciones que hay el dia 'd' a partir de las 'hh:mm' https://proyecciones-cine.herokuapp.com/proyecciones/dia/12/hora/10:28
+
+- Devolver todas las proyecciones que hay con peliculas que contengan 'n' en su nombre https://proyecciones-cine.herokuapp.com/proyecciones/pelicula/venom
+
+- Devolver las proyecciones de una película para un día concreto https://proyecciones-cine.herokuapp.com/pelicula/venom/dia/9
 
 ### Docker
 
