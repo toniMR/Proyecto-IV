@@ -9,21 +9,17 @@ import sys,os.path
 app = Flask(__name__)
 cine = Cine()
 
+# Devuelve un JSON con status OK
 @app.route('/')
 def index():
 	return jsonify(status="OK")
 
+# Devuelve un JSON con status OK
 @app.route('/status')
 def status():
 	return jsonify(status="OK")
 
-@app.route('/peliculas')
-def prueba():
-	peliculas = []
-	for p in cine.getPeliculas():
-		peliculas.append(p.toString())
-	return jsonify(peliculas=peliculas)
-
+# Devuelve todas las proyecciones de cada dia
 @app.route('/proyecciones')
 def data():
 	return jsonify(cine.getData())
