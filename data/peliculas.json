@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "Venom", 
+    "duracion": "2:20", 
+    "nombre": "Venom", 
+    "precio": "6.60\u20ac"
+  }, 
+  {
+    "_id": "JohnyEnglish", 
+    "duracion": "1:28", 
+    "nombre": "Johnny English: De nuevo en acci\u00f3n", 
+    "precio": "3.84\u20ac"
+  }, 
+  {
+    "_id": "ElDepredador", 
+    "duracion": "1:58", 
+    "nombre": "El Depredador", 
+    "precio": "4.74\u20ac"
+  }, 
+  {
+    "_id": "Increibles2", 
+    "duracion": "02:05", 
+    "nombre": "Los Incre\u00edbles 2", 
+    "precio": "6.15\u20ac"
+  }, 
+  {
+    "_id": "LaMonja", 
+    "duracion": "1:36", 
+    "nombre": "La monja", 
+    "precio": "7.80\u20ac"
+  }
+]

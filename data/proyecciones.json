@@ -1,0 +1,278 @@
+[
+  {
+    "dia": "1", 
+    "hora": "12:30", 
+    "sala": "1", 
+    "idPelicula": "Venom"
+  },
+  {
+    "dia": "1", 
+    "hora": "15:00", 
+    "sala": "1", 
+    "idPelicula": "Increibles2"
+  },
+  {
+    "dia": "1", 
+    "hora": "12:30", 
+    "sala": "2", 
+    "idPelicula": "LaMonja"
+  },  
+  {
+    "dia": "2", 
+    "hora": "12:30", 
+    "sala": "1", 
+    "idPelicula": "JohnyEnglish"
+  },
+  {
+    "dia": "2", 
+    "hora": "14:00", 
+    "sala": "1", 
+    "idPelicula": "JohnyEnglish"
+  },
+  {
+    "dia": "2", 
+    "hora": "19:00", 
+    "sala": "2", 
+    "idPelicula": "JohnyEnglish"
+  },
+  {
+    "dia": "3", 
+    "hora": "12:30", 
+    "sala": "1", 
+    "idPelicula": "ElDepredador"
+  },
+  {
+    "dia": "4", 
+    "hora": "14:00", 
+    "sala": "1", 
+    "idPelicula": "Increibles2"
+  },
+  {
+    "dia": "5", 
+    "hora": "19:00", 
+    "sala": "2", 
+    "idPelicula": "LaMonja"
+  },  
+  {
+    "dia": "7", 
+    "hora": "17:30", 
+    "sala": "1", 
+    "idPelicula": "ElDepredador"
+  },
+  {
+    "dia": "8", 
+    "hora": "14:20", 
+    "sala": "1", 
+    "idPelicula": "Increibles2"
+  },
+  {
+    "dia": "9", 
+    "hora": "18:30", 
+    "sala": "2", 
+    "idPelicula": "LaMonja"
+  },
+  {
+    "dia": "10", 
+    "hora": "10:00", 
+    "sala": "1", 
+    "idPelicula": "Venom"
+  },
+  {
+    "dia": "10", 
+    "hora": "12:30", 
+    "sala": "1", 
+    "idPelicula": "JohnyEnglish"
+  },
+  {
+    "dia": "10", 
+    "hora": "14:00", 
+    "sala": "1", 
+    "idPelicula": "ElDepredador"
+  },
+  {
+    "dia": "10", 
+    "hora": "16:00", 
+    "sala": "1", 
+    "idPelicula": "Increibles2"
+  },
+  {
+    "dia": "10", 
+    "hora": "18:10", 
+    "sala": "1", 
+    "idPelicula": "LaMonja"
+  },
+  {
+    "dia": "15", 
+    "hora": "10:00", 
+    "sala": "1", 
+    "idPelicula": "LaMonja"
+  },
+  {
+    "dia": "15", 
+    "hora": "15:00", 
+    "sala": "1", 
+    "idPelicula": "LaMonja"
+  },
+  {
+    "dia": "15", 
+    "hora": "18:00", 
+    "sala": "1", 
+    "idPelicula": "LaMonja"
+  },
+  {
+    "dia": "15", 
+    "hora": "10:00", 
+    "sala": "2", 
+    "idPelicula": "ElDepredador"
+  },
+  {
+    "dia": "15", 
+    "hora": "15:00", 
+    "sala": "2", 
+    "idPelicula": "ElDepredador"
+  },
+  {
+    "dia": "15", 
+    "hora": "18:00", 
+    "sala": "2", 
+    "idPelicula": "ElDepredador"
+  },
+  {
+    "dia": "15", 
+    "hora": "10:00", 
+    "sala": "3", 
+    "idPelicula": "Increibles2"
+  },
+  {
+    "dia": "15", 
+    "hora": "15:00", 
+    "sala": "3", 
+    "idPelicula": "JohnyEnglish"
+  },
+  {
+    "dia": "15", 
+    "hora": "12:00", 
+    "sala": "4", 
+    "idPelicula": "Venom"
+  },
+  {
+    "dia": "18", 
+    "hora": "20:00", 
+    "sala": "1", 
+    "idPelicula": "Venom"
+  },
+  {
+    "dia": "19", 
+    "hora": "21:30", 
+    "sala": "5", 
+    "idPelicula": "ElDepredador"
+  },
+  {
+    "dia": "20", 
+    "hora": "12:00", 
+    "sala": "2", 
+    "idPelicula": "JohnyEnglish"
+  },
+  {
+    "dia": "21", 
+    "hora": "10:00", 
+    "sala": "1", 
+    "idPelicula": "JohnyEnglish"
+  },
+  {
+    "dia": "21", 
+    "hora": "17:00", 
+    "sala": "1", 
+    "idPelicula": "JohnyEnglish"
+  },
+  {
+    "dia": "24", 
+    "hora": "10:00", 
+    "sala": "1", 
+    "idPelicula": "ElDepredador"
+  },
+  {
+    "dia": "24", 
+    "hora": "15:00", 
+    "sala": "1", 
+    "idPelicula": "LaMonja"
+  },
+  {
+    "dia": "24", 
+    "hora": "18:00", 
+    "sala": "1", 
+    "idPelicula": "Increibles2"
+  },
+  {
+    "dia": "24", 
+    "hora": "10:00", 
+    "sala": "2", 
+    "idPelicula": "ElDepredador"
+  },
+  {
+    "dia": "24", 
+    "hora": "15:00", 
+    "sala": "2", 
+    "idPelicula": "JohnyEnglish"
+  },
+  {
+    "dia": "24", 
+    "hora": "18:00", 
+    "sala": "2", 
+    "idPelicula": "ElDepredador"
+  },
+  {
+    "dia": "24", 
+    "hora": "10:00", 
+    "sala": "3", 
+    "idPelicula": "Venom"
+  },
+  {
+    "dia": "24", 
+    "hora": "15:00", 
+    "sala": "3", 
+    "idPelicula": "JohnyEnglish"
+  },
+  {
+    "dia": "24", 
+    "hora": "12:00", 
+    "sala": "4", 
+    "idPelicula": "LaMonja"
+  },
+  {
+    "dia": "27", 
+    "hora": "10:00", 
+    "sala": "5", 
+    "idPelicula": "Venom"
+  },
+  {
+    "dia": "27", 
+    "hora": "15:00", 
+    "sala": "5", 
+    "idPelicula": "Venom"
+  },
+  {
+    "dia": "27", 
+    "hora": "21:00", 
+    "sala": "5", 
+    "idPelicula": "Venom"
+  },
+  {
+    "dia": "29", 
+    "hora": "10:00", 
+    "sala": "4", 
+    "idPelicula": "Increibles2"
+  },
+  {
+    "dia": "29", 
+    "hora": "15:00", 
+    "sala": "4", 
+    "idPelicula": "Increibles2"
+  },
+  {
+    "dia": "29", 
+    "hora": "21:00", 
+    "sala": "4", 
+    "idPelicula": "Increibles2"
+  }
+]
