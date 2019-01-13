@@ -9,7 +9,7 @@ class Cine():
 
     # Inicializacion
     def __init__(self):
-        conn = MongoClient(mongodb+srv://toniMR:toniMR@proyeccionescine-wifce.azure.mongodb.net/test?retryWrites=true)
+        conn = MongoClient("mongodb+srv://toniMR:toniMR@proyeccionescine-wifce.azure.mongodb.net/test?retryWrites=true")
         self.db = conn.cine
         self.proyecciones = self.db.proyecciones
         self.peliculas = self.db.peliculas
