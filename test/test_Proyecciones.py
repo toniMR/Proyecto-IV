@@ -27,7 +27,7 @@ localhost = 'http://localhost:5000'
 """
 
 
-
+"""
 class TestCine(unittest.TestCase):
 
 	# Comprueba que en la ruta devuelve status OK
@@ -49,13 +49,13 @@ class TestCine(unittest.TestCase):
 
 	# Comprueba que elimina todos los datos correctamente
 	def test_borrar_datos (self):
-		"""
+
 			Mando petición DELETE a ruta /peliculas porque al borrar las peliculas
 			también borra las proyecciones que haya al no haber peliculas que pueda proyectar
-		"""
+		
 		response = requests.delete(url + '/peliculas')
 		self.assertEqual(response.json()['code'], "OK", "Datos Borrados Correctamente")
-
+"""
 
 class TestHoras(unittest.TestCase):
 
