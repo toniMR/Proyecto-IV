@@ -9,7 +9,7 @@ class Cine():
 
     # Inicializacion
     def __init__(self):
-        conn = MongoClient()
+        conn = MongoClient('localhost', 27017)
         self.db = conn.cine
         self.proyecciones = self.db.proyecciones
         self.peliculas = self.db.peliculas
