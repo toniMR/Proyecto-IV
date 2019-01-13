@@ -2,7 +2,9 @@
 
 import sys, os.path
 
-sys.path.append('../src/')
+src = (os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
++ '/src/')
+sys.path.append(src)
 
 import unittest, json, requests
 from requests import *
@@ -52,7 +54,7 @@ class TestCine(unittest.TestCase):
 
 			Mando petición DELETE a ruta /peliculas porque al borrar las peliculas
 			también borra las proyecciones que haya al no haber peliculas que pueda proyectar
-		
+
 		response = requests.delete(url + '/peliculas')
 		self.assertEqual(response.json()['code'], "OK", "Datos Borrados Correctamente")
 """
