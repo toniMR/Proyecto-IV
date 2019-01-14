@@ -1,50 +1,53 @@
 # Proyecto-IV
+[![Build Status](https://travis-ci.org/toniMR/Proyecto-IV.svg?branch=master)](https://travis-ci.org/toniMR/Proyecto-IV)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://proyecciones-cine.herokuapp.com/)
+
+
 
 ## Microservicio de Proyección de Películas
 
-El microservicio proporcionará información sobre las películas que hay en un cine. Mostrará las salas, horas y butacas disponibles.
+El microservicio proporcionará información sobre las proyecciones que hay en un cine y las películas que proyecta. Se podrá consultar las películas que hay, los datos de una película determinada, las proyecciones disponibles, buscar proyecciones para un dia, hora y pelicula concretas. Además de modificarlas.
 
-### Explicación de las clases creadas por ahora
-[Clases](https://tonimr.github.io/Proyecto-IV/doc/Clases)
-
-### Explicación de las herramientas elegidas
-[Herramientas](https://tonimr.github.io/Proyecto-IV/doc/Herramientas)
+### Documentación del microservicio
+[Clases](https://tonimr.github.io/Proyecto-IV/doc/Clases)  
 
 ### Herramientas
 - **Lenguaje:** Python
 - **Framework:** Flask
 - **Tests:** unitest y Travis CI
-- **Base de datos:** MySQL
+- **Base de datos:** MongoDB en [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)  
+- **PaaS:** Heroku  
+- **IaaS:**  Azure  
+- **Contenedor:** Docker  
+- **Provisionamiento**  Ansible  
+- **Despliegue**  Fabric  
+- **Orquestador MV**  Vagrant
+
+
+### Explicación de las herramientas elegidas
+[Herramientas](https://tonimr.github.io/Proyecto-IV/doc/Herramientas)  
 
 ### PaaS
-El PaaS que he escogido ha sido Heroku. Ya que en Azure se acaba el saldo y prefiero hacerlo primero con Heroku y aprender con Azure después.  
+El PaaS que he escogido ha sido Heroku.
 
 [Documentación-Heroku](https://github.com/toniMR/Proyecto-IV/blob/master/doc/ConfiguracionHeroku.md)  
 
-despliegue : https://proyecciones-cine.herokuapp.com/
-
-**Solicitudes que se pueden realizar al microservicio**
-- Devolver todas las proyecciones de cada dia: https://proyecciones-cine.herokuapp.com/proyecciones
-
-- Devolver todas las proyecciones que hay el dia 'd' https://proyecciones-cine.herokuapp.com/proyecciones/dia/7
-
-- Devolver todas las proyecciones que hay el dia 'd' a partir de las 'hh:mm' https://proyecciones-cine.herokuapp.com/proyecciones/dia/12/hora/12:28
-
-- Devolver todas las proyecciones que hay con peliculas que contengan 'n' en su nombre https://proyecciones-cine.herokuapp.com/proyecciones/pelicula/venom
-
-- Devolver las proyecciones de una película para un día concreto https://proyecciones-cine.herokuapp.com/proyecciones/pelicula/venom/dia/9
+despliegue : https://proyecciones-cine.herokuapp.com/  
 
 ### Docker
 
 [Documentación-Docker](https://github.com/toniMR/Proyecto-IV/blob/master/doc/ConfiguracionDocker.md)  
 
-Contenedor : https://contenedor-proyecciones.herokuapp.com/
+Contenedor : https://contenedor-proyecciones.herokuapp.com/  
 
 Repositorio docker hub: https://hub.docker.com/r/tonimr/proyecto-iv/
 
-[![Build Status](https://travis-ci.org/toniMR/Proyecto-IV.svg?branch=master)](https://travis-ci.org/toniMR/Proyecto-IV)
-
 
 ### Despliegue en Azure  
+
+Despliegue del IasS con azure haciendo uso de Fabric, Ansible y Vagrant.
+
+[Documentación Despliegue Final](https://github.com/toniMR/Proyecto-IV/blob/master/doc/ConfiguracionDocker.md)
 
 Despliegue final: proyeccionescine.westus.cloudapp.azure.com  
