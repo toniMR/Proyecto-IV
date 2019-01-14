@@ -48,6 +48,6 @@ Repositorio docker hub: https://hub.docker.com/r/tonimr/proyecto-iv/
 
 Despliegue del IasS en Azure haciendo uso de Fabric, Ansible y Vagrant.
 
-[Documentación-DespliegueFinal](https://github.com/toniMR/Proyecto-IV/blob/master/doc/ConfiguracionDocker.md)
+[Documentación-DespliegueFinal](https://github.com/toniMR/Proyecto-IV/blob/master/doc/ConfiguracionAzure.md)
 
 Despliegue final: proyeccionescine.westus.cloudapp.azure.com  
