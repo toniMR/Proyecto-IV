@@ -10,7 +10,7 @@ vagrant box add azure https://github.com/azure/vagrant-azure/raw/v2.0/dummy.box 
 ~~~  
 
 
-Por lo que lo instale así:  
+Por lo que lo instalé así:  
 
 ~~~
 wget -c https://releases.hashicorp.com/vagrant/2.0.3/vagrant_2.0.3_x86_64.deb
@@ -36,7 +36,7 @@ $ sudo apt-get update
 $ sudo apt-get install ansible
 ~~~
 
-[Documentacion Ansible] (https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)  
+[Documentacion Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)  
 
 
 **Instalar Fabric y su biblioteca**  
@@ -47,14 +47,14 @@ pip install fabric
 ~~~  
 
 
-Como a mi me daba problemas al ejecutar el fabfile lo instale así:  
+Como a mí me daba problemas al ejecutar el fabfile lo instalé así:  
 
 ~~~
 pip install fabric==1.13.1
 ~~~  
 
 
-[Encontrada solución aquí] (https://github.com/tbarbugli/cassandra_snapshotter/issues/123)  
+[Encontrada solución aquí](https://github.com/tbarbugli/cassandra_snapshotter/issues/123)  
 
 
 
@@ -89,7 +89,7 @@ Instalar el CLI:
   sudo apt-get install azure-cli
 ~~~  
 
-[Fuente Original] (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest)  
+[Fuente Original](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest)  
 
 
 
@@ -137,9 +137,9 @@ az ad sp create-for-rbac
 
 
 
-Creamos un Vagrantfile  
+**Creamos un Vagrantfile**  
 
-**El archivo lo he copiado de los siguientes enlaces [Enlace1] (https://github.com/Azure/vagrant-azure), [Enlace2](https://github.com/Azure/vagrant-azure/blob/v2.0/docs/basic_linux/Vagrantfile), [Enlace3](https://www.vagrantup.com/docs/provisioning/ansible.html), [Enlace4](https://docs.ansible.com/ansible/latest/scenario_guides/guide_vagrant.html), [Enlace5](https://www.vagrantup.com/docs/provisioning/ansible_intro.html). Aunque me he ido informando de todo lo que hace para entenderlo**  
+**El archivo lo he copiado de los siguientes enlaces [Enlace1](https://github.com/Azure/vagrant-azure), [Enlace2](https://github.com/Azure/vagrant-azure/blob/v2.0/docs/basic_linux/Vagrantfile), [Enlace3](https://www.vagrantup.com/docs/provisioning/ansible.html), [Enlace4](https://docs.ansible.com/ansible/latest/scenario_guides/guide_vagrant.html), [Enlace5](https://www.vagrantup.com/docs/provisioning/ansible_intro.html). Aunque me he ido informando de todo lo que hace para entenderlo**  
 
 
 ![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/vagrantfile.png)  
@@ -186,7 +186,7 @@ Datos de la máquina virtual:
 ![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/panel.png)  
 
 
-Como podemos observar podemos ver el nombre del dominio y la ip.  
+Como podemos observar, podemos ver el nombre del dominio y la ip.  
 
 
 
@@ -229,6 +229,5 @@ fab -f despliegue/fabfile.py -H vagrant@"ip_maquina" "Stop"
 
 El terminal que estaba ejecutando el Start finaliza tras el Stop:  
 
-~~~
+
 ![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/start_stopping.png)
-~~~
