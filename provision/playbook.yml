@@ -1,0 +1,19 @@
+- hosts: all
+  become: yes
+  remote_user: toniMR
+
+  tasks:
+  - name: Actualizar
+    command: sudo apt-get update
+
+  - name: Instalar pip
+    command: sudo apt-get install -y python3-pip
+
+  - name: Instalar Git
+    command: sudo apt-get install -y git
+
+  - name: Clonar GitHub
+    command: git clone https://github.com/toniMR/Proyecto-IV
+
+  - name: Instalar requirements
+    command: pip3 install -r Proyecto-IV/requirements.txt
