@@ -101,8 +101,6 @@ Para indicarle a nuestro sistema la configuración que necesitamos usamos Ansibl
 
 ![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/playbook.png)  
 
-
-
 ## Crear máquina virtual en Azure con Vagrant  
 
 
@@ -139,17 +137,30 @@ az ad sp create-for-rbac
 
 **Creamos un Vagrantfile**  
 
-**El archivo lo he copiado de los siguientes enlaces [Enlace1](https://github.com/Azure/vagrant-azure), [Enlace2](https://github.com/Azure/vagrant-azure/blob/v2.0/docs/basic_linux/Vagrantfile), [Enlace3](https://www.vagrantup.com/docs/provisioning/ansible.html), [Enlace4](https://docs.ansible.com/ansible/latest/scenario_guides/guide_vagrant.html), [Enlace5](https://www.vagrantup.com/docs/provisioning/ansible_intro.html). Aunque me he ido informando de todo lo que hace para entenderlo**  
+**El vagrantfile lo he copiado de 2 lugares:  
+PARTE 1: [vagrant-azure](https://github.com/Azure/vagrant-azure)  
+PARTE 2: [vagrant-ansible](https://www.vagrantup.com/docs/provisioning/ansible_intro.html)**  
 
 
 ![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/vagrantfile.png)  
 
+**Para entender que hace cada línea lo he consultado en los siguientes enlaces:**  
+- Vagrant.configure('2') do |config|  
+[Documentacion](https://www.vagrantup.com/docs/vagrantfile/version.html)  
+
+- config.vm.box = 'azure'  
+[Documentacion](https://www.vagrantup.com/docs/vagrantfile/machine_settings.html)  
+
+- config.ssh.private_key_path = '~/.ssh/id_rsa'  
+[Documentacion](https://www.vagrantup.com/docs/vagrantfile/ssh_settings.html)  
+
+- config.vm.provider :azure do |azure|  
+[Documentacion](https://www.vagrantup.com/docs/providers/configuration.html)  
+
+Comentar que he quitado el override, de esta línea porque además de no utilizarlo, al final de la documentación recomienda hacerlo sin override siempre que sea posible. De esta forma si se utilizasen más proveedores todos tendrían la misma configuración.
 
 
 Exportamos variables de Azure  
-
-Exportaremos las variables de Azure. También se pueden indicar en el archivo .bashrc.  
-
 
 ![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/export_variables.png)  
 
