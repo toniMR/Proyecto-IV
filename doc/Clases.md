@@ -209,14 +209,14 @@ La hora se tiene que poner en formato hh:mm (Ej. 10:28)
 Devuelve todas las proyecciones que hay con peliculas que contengan 'n' en su nombre  
 
 
-**'/proyecciones/pelicula/<n>/dia/<d>'**  
+**'/proyecciones/pelicula/"n"/dia/"d"'**  
 
 - (GET)  
 
 Devuelve las proyecciones de una película para un día concreto  
 
 
-**'/proyecciones/dia/<d>/sala/<s>'**
+**'/proyecciones/dia/"d"/sala/"s"'**  
 
 - (GET)  
 
