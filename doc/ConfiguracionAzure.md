@@ -214,7 +214,7 @@ Como podemos observar, podemos ver el nombre del dominio y la ip.
 
 ## Despliegue de la aplicación con Fabric  
 
-Con Fabric podremos realizar acciones como lanzar y parar la máquina de una forma mucho más rápida.  
+Con Fabric podremos realizar acciones como lanzar y parar la máquina de una forma mucho más rápida. [Documentación](http://docs.fabfile.org/en/1.14/tutorial.html)  
 
 
 ![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/fabfile.png)  
