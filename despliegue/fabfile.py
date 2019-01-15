@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from fabric.api import run, cd, sudo
 
 # Descarga el proyecto e instala los requirements
