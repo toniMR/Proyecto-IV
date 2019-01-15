@@ -101,6 +101,17 @@ Para indicarle a nuestro sistema la configuración que necesitamos usamos Ansibl
 
 ![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/playbook.png)  
 
+
+Enlace donde explica hosts, become y remote_user. [Documentación](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html#playbook-language-example)  
+
+Me salio un Warning diciendo que usará el module apt en vez de hacer apt-get
+Por lo que lo cambié siguiendo esta [documentación](https://docs.ansible.com/ansible/latest/modules/apt_module.html?highlight=apt)  
+
+También cambié el comando de clonar github por el modulo git [aquí](https://docs.ansible.com/ansible/latest/modules/git_module.html?highlight=git)  
+
+Por último, también cambié la manera de instalar los requirements. Haciéndolo
+con el modulo pip, siguiendo la [documentación](https://docs.ansible.com/ansible/latest/modules/pip_module.html?highlight=pip3)  
+
 ## Crear máquina virtual en Azure con Vagrant  
 
 

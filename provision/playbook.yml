@@ -1,19 +1,38 @@
+# hosts que podrá gestionar
 - hosts: all
+  # Para permitir la escalada de privilegios
+  # Así evitamos poner sudo.
   become: yes
+
+  # Indicar el nombre de la cuenta del usuario
   remote_user: toniMR
 
   tasks:
+    # Actualiza el sistema
   - name: Actualizar
-    command: sudo apt-get update
+    # command: apt-get update
+    apt:
+      update_cache: yes
 
-  - name: Instalar pip
-    command: sudo apt-get install -y python3-pip
+    # Instala pip3 para instalar los requirements
+  - name: Instalar pip3
+    # command: apt-get install -y python3-pip
+    apt:
+      name: python3-pip
 
+    # Instala git
   - name: Instalar Git
-    command: sudo apt-get install -y git
+    # command: apt-get install -y git
+    apt:
+      name: git
 
+    # Clona el proyecto desde github
   - name: Clonar GitHub
-    command: git clone https://github.com/toniMR/Proyecto-IV
+    # command: git clone https://github.com/toniMR/Proyecto-IV
+    git:
+      repo: https://github.com/toniMR/Proyecto-IV.git
+      dest: Proyecto-IV
 
+    # Instala los requirements
   - name: Instalar requirements
     command: pip3 install -r Proyecto-IV/requirements.txt
