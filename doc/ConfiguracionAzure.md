@@ -253,3 +253,13 @@ El terminal que estaba ejecutando el Start finaliza tras el Stop:
 
 
 ![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/start_stopping.png)
+
+
+Borramos el proyecto:  
+![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/delete.png)  
+
+Instalar el proyecto:  
+![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/install.png)  
+
+Actualizar el proyecto:  
+![img](https://github.com/toniMR/Proyecto-IV/blob/master/doc/img/azure/update.png)

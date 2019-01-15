@@ -4,7 +4,8 @@ from fabric.api import run, cd, sudo
 # Descarga el proyecto e instala los requirements
 def Install():
     run('git clone https://github.com/toniMR/Proyecto-IV.git')
-    run('pip3 install -r requirements.txt')
+    with cd("Proyecto-IV"):
+        run('pip3 install -r requirements.txt')
 
 # Lanza la aplicación
 def Start():
