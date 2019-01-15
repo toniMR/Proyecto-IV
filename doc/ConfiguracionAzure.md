@@ -110,7 +110,7 @@ Por lo que lo cambié siguiendo esta [documentación](https://docs.ansible.com/a
 También cambié el comando de clonar github por el modulo git [aquí](https://docs.ansible.com/ansible/latest/modules/git_module.html?highlight=git)  
 
 Por último, también cambié la manera de instalar los requirements. Haciéndolo
-con el modulo pip, siguiendo la [documentación](https://docs.ansible.com/ansible/latest/modules/pip_module.html?highlight=pip3)  
+con el modulo pip, siguiendo la [documentación](https://docs.ansible.com/ansible/latest/modules/pip_module.html?highlight=pip3), pero me daba error y lo dejé con command.
 
 ## Crear máquina virtual en Azure con Vagrant  
 
